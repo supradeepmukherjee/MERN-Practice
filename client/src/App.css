@@ -1,0 +1,110 @@
+.homePage .homeDiv h1 {
+    font-size: 39px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.homePage .homeDiv h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:576px) {
+    .contactSubmitButton {
+        font-size: 12px;
+        padding: 0 25px;
+    }
+}
+
+#notFound {
+    position: relative;
+    height: 100vh;
+}
+
+.notFound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    max-width: 920px;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.notFound404 {
+    position: absolute;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    z-index: -1;
+}
+
+.notFound404 h1 {
+    font-family: 'Maven Pro', sans-serif;
+    color: #ececec;
+    font-weight: 900;
+    font-size: 276px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notFound h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 46px;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.notFound p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.notFound a {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    background: #189cf0;
+    display: inline-block;
+    padding: 16px 38px;
+    border: 2px solid transparent;
+    border-radius: 39px;
+    color: azure;
+    font-weight: 400;
+    transition: .2s all;
+    -webkit-transition: .2s all;
+}
+
+.notFound a:hover {
+    background-color: azure;
+    border-color: #189cf0;
+    color: #189cf0;
+}
+
+@media screen and(max-width:480px) {
+    .notFound404 h1 {
+        font-size: 162px;
+    }
+
+    .notFound h2 {
+        font-size: 26px;
+    }
+}
